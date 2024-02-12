@@ -25,3 +25,6 @@ int main()
             *(total_number_of_books+x)+=1;
             *(total_number_of_pages+x)=realloc(*(total_number_of_pages+x), *(total_number_of_books+x)*sizeof(int));
             *(*(total_number_of_pages+x)+*(total_number_of_books+x)-1)=y;
+        }
+    }
+}    
