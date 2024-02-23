@@ -12,7 +12,7 @@ struct document get_document(char* text) {
           doc.data[p].data[s].data = malloc(sizeof(struct word) * 128);
           doc.data[p].data[s].word_count = 0;
           for (int w = 0; w < 128; w++){
-              doc.data[p].data[s].data[w].data = malloc(sizeof(char) * 256);
+              doc.data[p].data[s].data[w].data = malloc(sizeof(char) * 256);  
             }
         }
     }
